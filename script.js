@@ -40,4 +40,4 @@ input.addEventListener('keypress', addListAfterKeypress);
 // Exercise
 // -----------------------------------------------------------------------------
 
-console.log();
+console.log('hello world');
