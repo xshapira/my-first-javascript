@@ -5,13 +5,16 @@ const input = document.getElementById('userinput');
 const ul = document.querySelector('ul');
 
 function inputLength() {
+  // @ts-ignore
   return input.value.length;
 }
 
 function createListElement() {
   const li = document.createElement('li');
+  // @ts-ignore
   li.appendChild(document.createTextNode(input.value));
   ul.appendChild(li);
+  // @ts-ignore
   input.value = '';
 }
 
@@ -37,10 +40,5 @@ input.addEventListener('keypress', addListAfterKeypress);
 // Exercise
 // -----------------------------------------------------------------------------
 
-const itemDone = document.getElementsByClassName('.done');
-
-function markItemDone() {
-  const clickItem = document.getElementsByTagName(li).onclick;
-}
-
-itemDone.addEventListener('click', addListAfterClick);
+console.log('hello Israel');
+console.log('hello USA');

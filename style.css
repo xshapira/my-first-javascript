@@ -10,3 +10,8 @@ html {
 li:hover {
   cursor: pointer;
 }
+
+body {
+  font-family: serif;
+  text-decoration: line-through;
+}
