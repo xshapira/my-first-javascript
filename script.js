@@ -41,3 +41,4 @@ input.addEventListener('keypress', addListAfterKeypress);
 // -----------------------------------------------------------------------------
 
 console.log('hello USA');
+console.log('learning git');
