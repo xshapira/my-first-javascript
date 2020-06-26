@@ -40,5 +40,4 @@ input.addEventListener('keypress', addListAfterKeypress);
 // Exercise
 // -----------------------------------------------------------------------------
 
-console.log('hello Israel');
 console.log('hello USA');
